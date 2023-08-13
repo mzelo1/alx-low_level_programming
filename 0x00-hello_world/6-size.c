@@ -4,10 +4,12 @@
  * Return 0
  */
 int main(void)
-{Size of char: 1 byte(s)
-Size of int: 4 byte(s)
-Size of long: 8 byte(s)
-Size of long long: 8 byte(s)
-Size of float: 4 byte(s)
-Size of double: 8 byte(s)
-Size of long double: 16 byte(s)}
+{
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
+printf("Size of char: %lu byte(s0\n", (unsigned long)sizeof(a));
+printf("Size of an int: %lu byte)s)\n", (unsigned long)sizeof(b));
+}
