@@ -4,10 +4,11 @@
  * print_alphabet_x10 - Make alphabet x10 times
  * Retunr: void
  */
+
 void print_alphabet_x10(void)
 {
 char ch;
-inti;
+int i;
 i = 0;
 while (i < 10)
 {
