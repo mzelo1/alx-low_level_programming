@@ -1,12 +1,19 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * putchar - write the
- * Return: 0
+ * main -Entry point of my code,
+ *
+ * Return: Always 0
  */
 int main(void)
 {
-	printf("_putchar\n");
-	retunr 0;
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
